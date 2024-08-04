@@ -8,15 +8,18 @@
   display: flex;
   flex-direction: row;
 }
-.small-card__photo > img {
+.small-card__photo > a, img {
   width: 200px;
   min-width: 200px;
   margin-right: 20px;
 }
-.small-card__description > h2 {
+.small-card__description > a, h2 {
   display: flex;
   justify-content: flex-start;
 }
-.small-card__description > p {
+.small-card__description > a, p {
   color: gray;
+}
+hr {
+  margin-bottom: 15px;
 }

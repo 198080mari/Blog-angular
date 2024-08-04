@@ -7,10 +7,15 @@
   margin-left: 20px;
   margin-right: 20px;
 }
+.big-card__date > p {
+  color: grey;
+  margin-top: 20px;
+  font-size: 14px;
+}
 .big-card__title {
   margin-top: 15px;
 }
-p {
+.big-card__description > p {
   color: grey;
   margin-top: 20px;
 }
